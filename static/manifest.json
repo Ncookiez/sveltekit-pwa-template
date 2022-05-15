@@ -1,0 +1,13 @@
+{
+  "name": "sveltekit-pwa-template",
+  "short_name": "sveltekit-pwa",
+  "background_color": "#3E82F7",
+  "theme_color": "#1e88e5",
+  "display": "minimal-ui",
+  "start_url": "/",
+  "icons": [{
+    "src": "/icon.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
+}
