@@ -1,12 +1,19 @@
 {
-  "name": "sveltekit-pwa-template",
-  "short_name": "sveltekit-pwa",
+  "name": "example-name",
+  "short_name": "example",
+	"theme_color": "#1e88e5",
   "background_color": "#3E82F7",
   "display": "minimal-ui",
   "start_url": "/",
-  "icons": [{
-    "src": "/icon.png",
-    "type": "image/png",
-    "sizes": "512x512"
-  }]
+  "icons": [
+		{
+			"src": "/icon.png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "/maskable_icon.png",
+			"sizes": "512x512",
+			"purpose": "maskable"
+		}
+	]
 }

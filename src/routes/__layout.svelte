@@ -22,6 +22,8 @@
 
 <style>
 
-	/* CSS Goes Here */
+	main {
+		padding: 1em;
+	}
 
 </style>
