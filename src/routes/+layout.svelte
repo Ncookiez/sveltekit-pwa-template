@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 
 	// Imports:
 	import Nav from '$lib/Nav.svelte';

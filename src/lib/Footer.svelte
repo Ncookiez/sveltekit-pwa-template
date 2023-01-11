@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 
 	// Initializations:
 	const githubUser = 'Ncookiez';
