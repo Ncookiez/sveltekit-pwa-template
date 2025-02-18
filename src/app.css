@@ -1,23 +1,26 @@
 :root {
-	--primary-color: #b9c6d2;
-	--secondary-color: #161616;
-	--tertiary-color: #edf0f8;
-	--accent-color: #ff3e00;
+  --primary-color: #b9c6d2;
+  --secondary-color: #161616;
+  --tertiary-color: #edf0f8;
+  --accent-color: #ff3e00;
 }
 
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-*, *:after, *:before {
-	box-sizing: border-box;
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
-html, body {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	color: #ffffff;
-	background-color: var(--secondary-color);
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background-color: var(--secondary-color);
 }

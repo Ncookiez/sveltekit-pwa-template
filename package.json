@@ -1,19 +1,26 @@
 {
-	"name": "sveltekit-pwa-template",
-	"version": "0.0.1",
-	"type": "module",
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "1.7.2",
-		"svelte": "^3.55.1",
-		"svelte-check": "^3.0.3",
-		"tslib": "^2.5.0",
-		"typescript": "^4.9.5",
-		"vite": "^4.1.2"
-	}
+  "name": "sveltekit-pwa-template",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "4.0.0",
+    "@sveltejs/kit": "2.5.25",
+    "@sveltejs/vite-plugin-svelte": "3.1.2",
+    "prettier": "3.3.3",
+    "prettier-plugin-svelte": "3.2.6",
+    "svelte": "4.2.19",
+    "svelte-check": "3.8.6",
+    "typescript": "5.5.4",
+    "vite": "5.4.6"
+  }
 }
